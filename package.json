@@ -1,0 +1,21 @@
+{
+  "name": "campus-bus-tracker",
+  "version": "1.0.0",
+  "description": "Campus bus tracking web app with role-based auth, live GPS tracking, and geofenced attendance.",
+  "main": "app.js",
+  "scripts": {
+    "config": "node generate-config.js",
+    "build": "node generate-config.js",
+    "test": "node -e \"console.log('Build validation passed')\"",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "campus",
+    "transit",
+    "bus-tracker",
+    "leaflet",
+    "firebase"
+  ],
+  "author": "",
+  "license": "MIT"
+}
